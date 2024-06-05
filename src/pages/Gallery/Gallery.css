@@ -1,0 +1,77 @@
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #d7aeae;
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.gallery p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.gallery__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery__card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.gallery__card:hover {
+    transform: scale(1.05);
+}
+
+.gallery__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery__details {
+    padding: 20px;
+}
+
+.gallery__details h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.gallery__details h4 {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+.gallery__details p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.gallery__details blockquote {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 10px 0;
+    padding-left: 10px;
+    border-left: 3px solid #c70c54;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}

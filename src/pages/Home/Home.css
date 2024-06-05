@@ -1,0 +1,50 @@
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../../images/pexels2.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+.content {
+    text-align: center; /* Center-align text within the content */
+    /* Background gradient */
+}
+
+.content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #c70c54;
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for color and transform */
+}
+
+.content h1:hover {
+    color:#00b894; /* Change text color on hover */
+    transform: scale(1.1); /* Slightly enlarge the text on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Add a slight background color on hover */
+    padding: 10px; /* Add padding to create space around the text */
+    border-radius: 10px; /* Rounded corners for the background */
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #c70c54;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+}
+
+.content button:hover {
+    background-color: #00b894; /* Change button color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
