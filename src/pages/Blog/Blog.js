@@ -26,7 +26,7 @@ function Blog() {
                 </div>
                 <div className="Blog__meta absolute">
                      <h5 className="project__text2">Blogging</h5>
-                     <a href="#" className="blog project__btn btn">Read More..</a>
+                     <a href="/" className="blog project__btn btn">Read More..</a>
                      </div>
                      
               </div>
